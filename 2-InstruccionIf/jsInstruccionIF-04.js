@@ -1,7 +1,12 @@
+//Suarez, Tomas Martin Div E
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let edadIngresada = parseInt(txtIdEdad.value);
 
+	if (edadIngresada >= 13 && edadIngresada <= 17) {
+		alert("Eres adolescente");
+	} 
+	
 
 }//FIN DE LA FUNCIÓN
